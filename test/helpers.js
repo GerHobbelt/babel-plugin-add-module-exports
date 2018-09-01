@@ -1,6 +1,6 @@
 import vm from 'vm'
 import util from 'util'
-import { transform as babelTransform } from 'babel-core'
+import { transform as babelTransform } from '@gerhobbelt/babel-core'
 import assert from 'assert'
 
 export function createSandbox() {

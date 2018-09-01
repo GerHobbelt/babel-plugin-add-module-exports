@@ -1,5 +1,5 @@
 import assert from 'assert'
-import { transform as babelTransform } from 'babel-core'
+import { transform as babelTransform } from '@gerhobbelt/babel-core'
 import { testPlugin, equal } from './helpers'
 import testCases from './spec'
 
